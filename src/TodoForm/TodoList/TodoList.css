@@ -1,0 +1,53 @@
+.list-todo {
+  margin: 25px auto;
+}
+
+.completed {
+  background-color: greenyellow;
+}
+
+.li-wrapper {
+  display: inline-block;
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.todo-item {
+  font-size: 25px;
+  text-transform: capitalize;
+  margin-bottom: 5px;
+}
+
+.btn-edit,
+.btn-remove,
+.btn-completed {
+  font-size: 20px;
+  margin: 5px;
+  border: 1px solid #000;
+  padding: 5px;
+}
+
+.completed {
+  background-color: green;
+}
+
+.edit-form {
+  display: block;
+}
+
+.none {
+  display: none;
+}
+
+.edit-input {
+  margin: 12px 6px 12px 0;
+  min-width: 300px;
+  min-height: 30px;
+}
+
+.save-edit,
+.close-edit {
+  padding: 5px;
+  min-height: 30px;
+  margin: 0 6px;
+}

@@ -1,0 +1,42 @@
+.none {
+  display: none;
+}
+
+.error {
+  display: block;
+  color: #fff;
+  background-color: red;
+  text-transform: uppercase;
+  padding: 6px;
+}
+
+.warrning {
+  display: block;
+  color: #fff;
+  background-color: yellow;
+  text-transform: uppercase;
+  padding: 6px;
+}
+
+.input-todo {
+  width: 900px;
+  border: 1px solid pink;
+  margin: 50px auto;
+}
+
+.title {
+  margin: 30px;
+}
+
+.input,
+.edit-input {
+  width: 500px;
+  height: 50px;
+  margin: 20px;
+  padding: 0 20px;
+}
+
+.btn-add {
+  height: 50px;
+  width: 80px;
+}
